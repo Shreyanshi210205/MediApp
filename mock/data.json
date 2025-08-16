@@ -1,0 +1,62 @@
+[
+  {
+    "productId": 101,
+    "productName": "Paracetamol 500mg",
+    "productPictureMain": "../assets/img/para_1.png",
+    "productPictureOne": "https://www.pharmacytimes.com/assets/images/_og_image/acetaminophen.jpg",
+    "productPictureTwo": "https://images.pexels.com/photos/593451/pexels-photo-593451.jpeg",
+    "productPictureThree": "https://images.pexels.com/photos/139398/pexels-photo-139398.jpeg",
+    "productPictureFour": "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+    "productPictureFive": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg",
+    "productPrice": "5.99",
+    "productInfoOne": "Used to reduce fever and relieve mild to moderate pain.",
+    "productInfoTwo": "Recommended dosage: 1-2 tablets every 4-6 hours.",
+    "productInfoThree": "Avoid alcohol while taking this medication.",
+    "productInfoUsageDetails": "Consult a doctor if symptoms persist beyond 3 days."
+  },
+  {
+    "productId": 102,
+    "productName": "Ibuprofen 400mg",
+    "productPictureMain": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ibuprofen_2D_structure.svg/1200px-Ibuprofen_2D_structure.svg.png",
+    "productPictureOne": "https://images.pexels.com/photos/586339/pexels-photo-586339.jpeg",
+    "productPictureTwo": "https://images.pexels.com/photos/1098514/pexels-photo-1098514.jpeg",
+    "productPictureThree": "https://images.pexels.com/photos/263194/pexels-photo-263194.jpeg",
+    "productPictureFour": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg",
+    "productPictureFive": "https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg",
+    "productPrice": "7.99",
+    "productInfoOne": "Nonsteroidal anti-inflammatory drug (NSAID) used for pain relief.",
+    "productInfoTwo": "Recommended dosage: 1 tablet every 6-8 hours.",
+    "productInfoThree": "Do not exceed 3 tablets in 24 hours.",
+    "productInfoUsageDetails": "Take with food to avoid stomach irritation."
+  },
+  {
+    "productId": 103,
+    "productName": "Amoxicillin 250mg",
+    "productPictureMain": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Amoxicillin.svg/1200px-Amoxicillin.svg.png",
+    "productPictureOne": "https://images.pexels.com/photos/206452/pexels-photo-206452.jpeg",
+    "productPictureTwo": "https://images.pexels.com/photos/4032113/pexels-photo-4032113.jpeg",
+    "productPictureThree": "https://images.pexels.com/photos/3952233/pexels-photo-3952233.jpeg",
+    "productPictureFour": "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+    "productPictureFive": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg",
+    "productPrice": "9.99",
+    "productInfoOne": "Antibiotic used to treat bacterial infections.",
+    "productInfoTwo": "Recommended dosage: 1 capsule every 8 hours.",
+    "productInfoThree": "Finish the full course as prescribed.",
+    "productInfoUsageDetails": "Take with or without food."
+  },
+  {
+    "productId": 104,
+    "productName": "Cetirizine 10mg",
+    "productPictureMain": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Cetirizine.svg/1200px-Cetirizine.svg.png",
+    "productPictureOne": "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+    "productPictureTwo": "https://images.pexels.com/photos/139398/pexels-photo-139398.jpeg",
+    "productPictureThree": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg",
+    "productPictureFour": "https://images.pexels.com/photos/586339/pexels-photo-586339.jpeg",
+    "productPictureFive": "https://images.pexels.com/photos/1098514/pexels-photo-1098514.jpeg",
+    "productPrice": "4.99",
+    "productInfoOne": "Used for allergy relief, hay fever, and urticaria.",
+    "productInfoTwo": "Recommended dosage: 1 tablet daily.",
+    "productInfoThree": "May cause drowsiness in some individuals.",
+    "productInfoUsageDetails": "Avoid driving if drowsy after taking."
+  }
+]

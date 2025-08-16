@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Medibuddy || Online Medicine shop</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <article class="navbarOne">
+        <div class="section">
+          <figure>
+            <img src="images/logo.png" alt="company-logo" />
+          </figure>
+          <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              value="Host Point Campus, Mayor Street Upper, Dublin 1 D01W2R1"
+            />
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              name="products"
+              id="products"
+              placeholder="Search for products"
+            />
+          </div>
+          <div class="telphone">
+            <i class="fa-solid fa-phone"></i>
+            <h5>1800 266 2247</h5>
+          </div>
+        </div>
+      </article>
+      <article class="navbarTwo">
+        <div class="section">
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul>
+            <li>
+              <i class="fa-solid fa-box"></i><span>Products</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-percent"></i><span>Offer</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-pills"></i><span>Medicines</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i
+              ><span>Store locator</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-book"></i
+              ><span>Wellnes Book</span>
+            </li>
+          </ul>
+          <div class="not-cart">
+            <i class="fa-solid fa-bell"></i>
+            <a class="cart" href="./Checkout.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span
+                class="cartItemsQuantity"
+                id="cartItemsQuantity"
+              ></span>
+            </a>
+          </div>
+          <div class="profile">
+            <div class="profile-name">
+              <i class="fa-solid fa-user"></i>
+              <h6>Harsh Mall</h6>
+              <i
+                id="downarrow"
+                class="fa-sharp fa-solid fa-angle-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="navbarThree">
+        <div class="section navigation">
+          <a href="#">Home</a>
+          <span><i class="fa-solid fa-angle-right"></i></span>
+          <a href="./MainScreen.html">Medicine</a>
+          <span><i class="fa-solid fa-angle-right"></i></span>
+          <a href="">Medicine Name</a>
+        </div>
+      </article>
+    </nav>
+
+    <main class="descriptionMainContainer">
+      <section class="section">
+        <!-- <article class="leftSection">
+          <figure>
+            <img
+              src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/0f42192e27294a059f5d7083ba8b6443?v=002ae8d5"
+              alt="medicine-main-image"
+            />
+          </figure>
+          <div class="pictureRoll">
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/0f42192e27294a059f5d7083ba8b6443?v=002ae8d5"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/cdf5e2f4ac10479283fcbfdd6cc6ebfa?v=26dcb6a6"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/8e409bd7f2734bd3ab4663a5ca9053d6?v=71a42825"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/549efa5c908e42d1811124eafadb3b39?v=08e83fa1"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/c4197e9dfa664061b07f78c2cd8d658f?v=acc9c1a2"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                src="https://wfmp-p-001-delivery.sitecorecontenthub.cloud/api/public/content/c01b4d8bf53444f4abc68d26b7fbe264?v=a733ae12"
+                alt=""
+              />
+            </figure>
+          </div>
+        </article>
+        <article class="rightSection">
+          <div class="medicineheading">
+            <h1>
+              <i class="fa-solid fa-prescription-bottle"></i
+              ><span>Lejet 5mg 10 Tablets</span>
+            </h1>
+            <span id="price">$ 20.00</span>
+            <p>Get it in<span> 1 Day</span></p>
+          </div>
+          <div class="medicineAddToCart">
+            <button
+              class="medicineAddToCartTextButton"
+              type="button"
+              id="addToCartButton"
+            >
+              <i class="fa-solid fa-plus"></i>
+              <span>Add</span>
+            </button>
+            <div class="medicineCounter" id="itemsCounter">
+              <button type="button" id="decreaseItemButton">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <input type="text" value="1" readonly id="itemQuantity" />
+              <button type="button" id="increaseItemButton">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="medicineInfo">
+            <div class="infoOne">
+              <h4>ABOUT THE PRODUCT</h4>
+              <p>
+                lejet is an antihistamine tablet used to treat the symptoms of
+                allergic conditions such as hay fever, conjunctivitis, some skin
+                reactions such as eczema, hives, and reactions to bites and
+                stings. and also treats watery eyes, runny nose, sneezing, and
+                itching. 
+                <br><br>
+                this medication is usually taken only on the days you
+                have symptoms and is taken regularly from some conditions to
+                prevent symptoms. this medication may cause side effects such as
+                feeling sleepy or dizzy, dry mouth, fatigue, headache,
+                constipation, diarrhoea, painful teething, xerostomia, otitis
+                media, nasopharyngitis, pharyngitis, fever. inform your doctor
+                if these side effects bother or worsen your condition. please do
+                not exceed more than the recommended dose as it may lead to
+                toxicity and adverse effects. avoid alcohol consumption as it
+                may lead to cause excessive drowsiness. 
+                <br><br>
+                avoid driving or lifting
+                heavy weights or using machines as it may cause drowsiness.do
+                not stop the medication. you have to complete the course of
+                treatment as prescribed by your doctor even if you feel better.
+                sudden abrupt may and leads to severe complications.before
+                taking this medication, inform your doctor if you are pregnant
+                or intend to be pregnant, have liver & kidney problems, and use
+                any other medications.
+              </p>
+            </div>
+            <div class="infoTwo">
+              <h4>USAGE DETAILS</h4>
+              <p>
+                lejet tablet is taken with food in the evening time as
+                prescribed by your doctor. better take the medication at the
+                same time of the day daily to attain desirable outcomes. swallow
+                the tablet with a glass full of water. do not chew or crush or
+                dissolve the tablet. the dose and frequency of the medication
+                depend on your condition or how you respond to the drug.
+              </p>
+            </div>
+          </div>
+          
+        </article> -->
+      </section>
+    </main>
+
+    <footer>
+      <article class="footerOne">
+        <ul class="section">
+          <li>
+            <i class="fa-solid fa-truck"></i
+            ><span>Priority Delivery</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i
+            ><span>Live Track Orders</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-wallet"></i
+            ><span>Earn Wallet Points</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-credit-card"></i
+            ><span>Secure Payments</span>
+          </li>
+        </ul>
+      </article>
+      <article class="footerTwo">
+        <div class="section">
+          <div class="info">
+            <h4>Get in touch</h4>
+            <p>
+              Write to us and we will get back to you at the earliest
+            </p>
+          </div>
+          <div class="inputsOne">
+            <input type="text" placeholder="Full name" />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="+353-XXXXXXXXXX"
+            />
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+          <div class="textArea">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <div class="submitButton">
+            <button type="button">Submit</button>
+          </div>
+        </div>
+      </article>
+      <article class="footerThree">
+        <div class="section">
+          <div class="left">
+            <div class="heading">
+              <h4>FOLLOW US</h4>
+              <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-solid fa-envelope"></i></li>
+              </ul>
+            </div>
+            <div class="categories">
+              <h4>CATEGORIES</h4>
+              <ul>
+                <li>Mom & Baby</li>
+                <li>Personal Care</li>
+                <li>Health & Fitness</li>
+                <li>Elderly Care</li>
+                <li>Food & Beverages</li>
+                <li>Self Medication</li>
+                <li>Paper & Wipes</li>
+                <li>Pet Supplies</li>
+                <li>Home Care</li>
+                <li>Sexual Wellness</li>
+                <li>Ortho Belts & Support</li>
+                <li>Mobility & Rehab</li>
+                <li>Covid 19 Essentials</li>
+                <li>Nutraceutical</li>
+              </ul>
+            </div>
+            <div class="medicines">
+              <h4>MEDICINES</h4>
+              <ul>
+                <li>Buy Medicines</li>
+                <li>Upload Doctor's Note</li>
+              </ul>
+            </div>
+            <div class="others">
+              <h4>OTHERS</h4>
+              <ul>
+                <li>Offers</li>
+                <li>About us</li>
+                <li>Blogs</li>
+                <li>Cancellation Policy</li>
+                <li>Terms & Condition</li>
+                <li>Returns & Refunds</li>
+                <li>Privacy Policy</li>
+                <li>Store Locator</li>
+                <li>Sitemap</li>
+                <li>Frequently Asked Questions</li>
+              </ul>
+            </div>
+            <div class="summary">
+              <h6>15 Years Of Trust</h6>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Sed obcaecati voluptatum est consequuntur omnis
+                animi ex quo, illum laboriosam, facilis in quibusdam
+                neque fugiat fugit alias necessitatibus, vero esse.
+                Commodi sint vero similique ab eligendi, omnis, harum
+                reprehenderit explicabo repellat dolorem suscipit
+                tempora vel quibusdam possimus est. Praesentium,
+                suscipit adipisci.
+              </p>
+              <p>Copyright NetPharm 2023</p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="help">
+              <i class="fa-solid fa-phone"></i>
+              <h6>Need help? Call <span>1800 266 2247</span></h6>
+            </div>
+            <div class="email">
+              <i class="fa-solid fa-envelope"></i>
+              <h6>Email us at <span>helpdesk@netPharm.ir</span></h6>
+            </div>
+            <div class="playstore">
+              <button type="button">GooglePlay</button>
+              <button type="button">AppStore</button>
+            </div>
+            <div class="mobileApp">
+              <h4>DOWNLOAD THE MOBILE APP</h4>
+              <input type="text" placeholder="+353-XXXXXXXXXX" />
+              <span>OR</span>
+              <input type="text" placeholder="Email" />
+            </div>
+          </div>
+        </div>
+      </article>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="./Description.js"></script>
+  </body>
+</html>
